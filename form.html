@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .f1{
+    
+        padding:8px;
+        margin: 5px;
+    }
+    .f2{
+        
+        padding:8px;
+        margin: 5px;
+        display: inline-block;
+    }
+    .main{
+        display: flex;
+    }
+    .f3{
+        padding: 8px;
+        margin: 5px;
+    }
+    .f4{
+        padding: 8px;
+        margin: 5px;
+    }
+    .btn{
+        padding: 5px;
+        margin: 5px;
+        background-color: blueviolet;
+        color: white;
+    }
+   .yes{
+    background-color: rgb(116, 80, 150);
+   }
+</style>
+<body>
+    <form>
+        <div class="main">
+        <div class="first">
+        <label for="fname">First Name</label><br>
+        <input class="f1" type="text" name="fname" id="" placeholder="Enter your first name"></div>
+       <div> <label for="lname">Last Name</label><br>
+        <input class="f2" type="text" name="lname" id="" placeholder="Enter your last name"></div></div><br>
+        
+        <label for="many">How many guest are you bringing?</label><br>
+        <input class="f3" type="text" name="many" id="" placeholder="5"><br>
+        <label for="date">Event date</label><br>
+        <input class="f4" type="date" name="date" id=""><br>
+        <label for="ques"> Are you coming to the event?</label><br>
+        <input class="yes" type="radio" name="yes" id="">
+        <label class="ye" for="yes">yes</label>
+        <input type="radio" name="no" id="">
+        <label for="no">no</label><br>
+        <input class="btn" type="button" value="submit">
+
+    </form>
+</body>
+</html>
